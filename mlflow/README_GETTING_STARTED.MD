@@ -55,3 +55,8 @@ Flexible Code Management:
 Metadata Hub (Primary): Most commonly, LoggedModel links to externally managed code (e.g., via a Git commit hash), acting as a metadata record for that code version along with its associated configurations and MLflow entities (evaluations, traces).
 Packaged Artifacts (Optional): For specific deployment needs (like Databricks Model Serving), LoggedModel can also bundle the application code and dependencies directly.
 Lifecycle Tracking: The history of LoggedModel versions allows you to track the application's evolution, compare performance, and manage its lifecycle from development to production.
+
+```bash
+pip install langchain
+pip install langchain-openai
+```
